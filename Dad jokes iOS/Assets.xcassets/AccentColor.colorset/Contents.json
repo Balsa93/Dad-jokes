@@ -1,7 +1,6 @@
 {
-  "images" : [
+  "colors" : [
     {
-      "filename" : "CWC.svg",
       "idiom" : "universal"
     }
   ],
