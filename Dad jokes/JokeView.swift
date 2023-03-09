@@ -37,8 +37,20 @@ struct JokeView: View {
             if fetching {
                 ProgressView()
             } else {
-                Text(jokeString)
-                    .minimumScaleFactor(0.5)
+                VStack {
+                    Text(jokeString)
+                        .minimumScaleFactor(0.5)
+                    HStack {
+                        Spacer()
+                        Button {
+                            let pasteBoard = NSPasteboard.general
+                            pasteBoard.clearContents()
+                            pasteBoard.setString(jokeString, forType: NSPasteboard.PasteboardType.string)
+                        } label: {
+                            Text("Copy")
+                        }
+                    }
+                }
             }
             Spacer()
         }
@@ -67,6 +79,6 @@ struct JokeView: View {
 struct JokeView_Previews: PreviewProvider {
     static var previews: some View {
         JokeView()
-            .frame(width: 225, height: 225)
+            .frame(width: 225, height: 255)
     }
 }
