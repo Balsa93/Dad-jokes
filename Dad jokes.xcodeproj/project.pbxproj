@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2440A3E929BA6D66001A276A /* Dad_jokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2440A3E829BA6D66001A276A /* Dad_jokesApp.swift */; };
+		2440A3EB29BA6D66001A276A /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2440A3EA29BA6D66001A276A /* JokeView.swift */; };
+		2440A3ED29BA6D68001A276A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2440A3EC29BA6D68001A276A /* Assets.xcassets */; };
+		2440A3F029BA6D68001A276A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2440A3EF29BA6D68001A276A /* Preview Assets.xcassets */; };
+		2440A3F829BA6F50001A276A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2440A3F729BA6F50001A276A /* APIService.swift */; };
+		2440A3FA29BA6FC7001A276A /* JokeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2440A3F929BA6FC7001A276A /* JokeType.swift */; };
+		2440A3FC29BA707C001A276A /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2440A3FB29BA707C001A276A /* Joke.swift */; };
+		2440A3FE29BA74DE001A276A /* ApplicationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2440A3FD29BA74DE001A276A /* ApplicationMenu.swift */; };
+		2440A40029BA7BCD001A276A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2440A3FF29BA7BCD001A276A /* Credits.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2440A3E529BA6D66001A276A /* Dad jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dad jokes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2440A3E829BA6D66001A276A /* Dad_jokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad_jokesApp.swift; sourceTree = "<group>"; };
+		2440A3EA29BA6D66001A276A /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
+		2440A3EC29BA6D68001A276A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2440A3EF29BA6D68001A276A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2440A3F129BA6D68001A276A /* Dad_jokes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dad_jokes.entitlements; sourceTree = "<group>"; };
+		2440A3F729BA6F50001A276A /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		2440A3F929BA6FC7001A276A /* JokeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeType.swift; sourceTree = "<group>"; };
+		2440A3FB29BA707C001A276A /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		2440A3FD29BA74DE001A276A /* ApplicationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMenu.swift; sourceTree = "<group>"; };
+		2440A3FF29BA7BCD001A276A /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2440A3E229BA6D66001A276A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2440A3DC29BA6D66001A276A = {
+			isa = PBXGroup;
+			children = (
+				2440A3E729BA6D66001A276A /* Dad jokes */,
+				2440A3E629BA6D66001A276A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2440A3E629BA6D66001A276A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2440A3E529BA6D66001A276A /* Dad jokes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2440A3E729BA6D66001A276A /* Dad jokes */ = {
+			isa = PBXGroup;
+			children = (
+				2440A3F729BA6F50001A276A /* APIService.swift */,
+				2440A3FB29BA707C001A276A /* Joke.swift */,
+				2440A3E829BA6D66001A276A /* Dad_jokesApp.swift */,
+				2440A3EA29BA6D66001A276A /* JokeView.swift */,
+				2440A3F929BA6FC7001A276A /* JokeType.swift */,
+				2440A3FD29BA74DE001A276A /* ApplicationMenu.swift */,
+				2440A3FF29BA7BCD001A276A /* Credits.rtf */,
+				2440A3EC29BA6D68001A276A /* Assets.xcassets */,
+				2440A3F129BA6D68001A276A /* Dad_jokes.entitlements */,
+				2440A3EE29BA6D68001A276A /* Preview Content */,
+			);
+			path = "Dad jokes";
+			sourceTree = "<group>";
+		};
+		2440A3EE29BA6D68001A276A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2440A3EF29BA6D68001A276A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2440A3E429BA6D66001A276A /* Dad jokes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2440A3F429BA6D68001A276A /* Build configuration list for PBXNativeTarget "Dad jokes" */;
+			buildPhases = (
+				2440A3E129BA6D66001A276A /* Sources */,
+				2440A3E229BA6D66001A276A /* Frameworks */,
+				2440A3E329BA6D66001A276A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dad jokes";
+			productName = "Dad jokes";
+			productReference = 2440A3E529BA6D66001A276A /* Dad jokes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2440A3DD29BA6D66001A276A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2440A3E429BA6D66001A276A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2440A3E029BA6D66001A276A /* Build configuration list for PBXProject "Dad jokes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2440A3DC29BA6D66001A276A;
+			productRefGroup = 2440A3E629BA6D66001A276A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2440A3E429BA6D66001A276A /* Dad jokes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2440A3E329BA6D66001A276A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2440A3F029BA6D68001A276A /* Preview Assets.xcassets in Resources */,
+				2440A40029BA7BCD001A276A /* Credits.rtf in Resources */,
+				2440A3ED29BA6D68001A276A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2440A3E129BA6D66001A276A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2440A3FA29BA6FC7001A276A /* JokeType.swift in Sources */,
+				2440A3FE29BA74DE001A276A /* ApplicationMenu.swift in Sources */,
+				2440A3FC29BA707C001A276A /* Joke.swift in Sources */,
+				2440A3EB29BA6D66001A276A /* JokeView.swift in Sources */,
+				2440A3F829BA6F50001A276A /* APIService.swift in Sources */,
+				2440A3E929BA6D66001A276A /* Dad_jokesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2440A3F229BA6D68001A276A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2440A3F329BA6D68001A276A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2440A3F529BA6D68001A276A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dad jokes/Dad_jokes.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dad jokes/Preview Content\"";
+				DEVELOPMENT_TEAM = XCH2RB676X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.komnenovicbalsa.Dad-jokes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2440A3F629BA6D68001A276A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dad jokes/Dad_jokes.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dad jokes/Preview Content\"";
+				DEVELOPMENT_TEAM = XCH2RB676X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.komnenovicbalsa.Dad-jokes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2440A3E029BA6D66001A276A /* Build configuration list for PBXProject "Dad jokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2440A3F229BA6D68001A276A /* Debug */,
+				2440A3F329BA6D68001A276A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2440A3F429BA6D68001A276A /* Build configuration list for PBXNativeTarget "Dad jokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2440A3F529BA6D68001A276A /* Debug */,
+				2440A3F629BA6D68001A276A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2440A3DD29BA6D66001A276A /* Project object */;
+}
