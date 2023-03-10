@@ -50,7 +50,7 @@ struct WatchKitJokeView: View {
     }
     
     func getJoke() async {
-        let url = "https://jokes.guyliangilsing.me/retrieveJokes.php?type=\(jokeType)"
+        let url = "https://jokes.guyliangilsing.me/retrieveJokes.php?type=\(jokeType.type)"
         let apiService = APIService(urlString: url)
         fetching.toggle()
         defer {
