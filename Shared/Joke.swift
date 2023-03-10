@@ -12,4 +12,8 @@ struct Joke: Codable {
     let response: String
     let joke: String
     let type: String
+    
+    static var placeholder: Joke {
+        Joke(status: 200, response: "success", joke: "What did the ocean say to the shore? Nothing, it just waved", type: "Dad Joke: ")
+    }
 }
